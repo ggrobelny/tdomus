@@ -183,7 +183,7 @@ h6, .h6 {
    border-bottom:#ccc 1px solid;
    margin-bottom:30px;
    color:#fff;
-   background:#333 url('../img/showcase.jpg') no-repeat 100% 100%;
+   /*  background:#333 url('../img/showcase.jpg') no-repeat 100% 100%; */
    background-size: 100% 100%;
  }
 

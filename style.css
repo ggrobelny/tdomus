@@ -42,7 +42,7 @@ h6, .h6 {
  */
 
 .blog-masthead {
-  background-color: #428bca;
+  background-color: #449d44;
   -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
           box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
 }
@@ -183,17 +183,20 @@ h6, .h6 {
    border-bottom:#ccc 1px solid;
    margin-bottom:30px;
    color:#fff;
+   background:#333 url('../img/showcase.jpg') no-repeat 100% 100%;
+   background-size: 100% 100%;
  }
 
  .showcase h1{
    font-size: 55px;
    padding-bottom:20px;
-   color:#fff;
+   color:#333;
  }
 
  .showcase p {
    font-size:20px;
    margin-bottom:50px;
+   color:#286090;
  }
 
  .boxes{

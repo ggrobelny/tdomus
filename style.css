@@ -8,9 +8,15 @@ Text Domain: Root Zona
  * Globals
  */
 
+.searchForm {
+  color: #555;
+  background-color: #eee;
+}
+
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #555;
+  background-color: #eee;
 }
 
 h1, .h1,

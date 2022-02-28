@@ -35,8 +35,6 @@ function wpb_init_widgets($id){
     'after_title'   => '</h4>'
   ));
 
-
-
   register_sidebar(array(
     'name'  => 'Box1',
     'id'    => 'box1',
@@ -46,8 +44,6 @@ function wpb_init_widgets($id){
     'after_title'   => '</h3>'
   ));
 
-
-
   register_sidebar(array(
     'name'  => 'Box2',
     'id'    => 'box2',
@@ -56,8 +52,6 @@ function wpb_init_widgets($id){
     'before_title'  => '<h3>',
     'after_title'   => '</h3>'
   ));
-
-
 
   register_sidebar(array(
     'name'  => 'Box3',
@@ -79,7 +73,6 @@ function wpgood_nav_search( $items, $args ) {
     return $items;
 }
 add_filter( 'wp_nav_menu_items','wpgood_nav_search', 10, 2 );
-
 
 // Customizer File
 require get_template_directory(). '/inc/customizer.php';

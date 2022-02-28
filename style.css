@@ -8,10 +8,6 @@ Text Domain: Root Zona
  * Globals
  */
 
-.searchForm {
-  color: #555;
-  background-color: #eee;
-}
 
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -293,4 +289,31 @@ h6, .h6 {
 
 .post-gallery h2{
   color:#fff;
+}
+
+
+div.nav.blog-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-collapse {
+    color: #a17e41;
+    background-color: #a17e41;
+    padding: inherit;
+}
+
+.searchform {
+    position: relative;
+    line-height: 1.7;
+    color: #a17e41;
+    text-decoration: none;
+    display: block;
+    background-color: #a17e41;
+}
+div.nav.blog-nav {
+    color: #fff;
+    text-decoration: none;
+    display: block;
 }

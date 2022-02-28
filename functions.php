@@ -71,5 +71,15 @@ function wpb_init_widgets($id){
 
 add_action('widgets_init', 'wpb_init_widgets');
 
+/**
+ * Add search box to nav menu
+ */
+function wpgood_nav_search( $items, $args ) {
+    $items .= '<li>' . get_search_form( false ) . '</li>';
+    return $items;
+}
+add_filter( 'wp_nav_menu_items','wpgood_nav_search', 10, 2 );
+
+
 // Customizer File
 require get_template_directory(). '/inc/customizer.php';

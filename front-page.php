@@ -38,10 +38,7 @@
                'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
                'walker'            => new wp_bootstrap_navwalker())
            );
-       ?>
-         <div id="searchForm">
-          <?php get_search_form(); ?>
-         </div>
+          ?>
         </nav>
       </div>
     </div>

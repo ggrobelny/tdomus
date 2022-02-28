@@ -35,9 +35,6 @@
            );
        ?>
         </nav>
-        <div id="searchForm">
-         <?php get_search_form(); ?>
-        </div>
       </div>
     </div>
 

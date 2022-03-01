@@ -47,7 +47,7 @@
   <div class="container">
     <h1><?php echo get_theme_mod('showcase_heading', 'Custom Bootstrap Wordpress Theme'); ?></h1>
     <p><?php echo get_theme_mod('showcase_text', ''); ?></p>
-    <a href="<?php echo get_theme_mod('btn_url', '../translatione-domus/index.php/blog/'); ?>" class="btn btn-success btn-lg"><?php echo get_theme_mod('btn_text', 'Go To Blog'); ?></a>
+    <a href="<?php echo get_theme_mod('btn_url', '../translatione-domus/index.php/blog/'); ?>" class="btn btn-info btn-lg"><?php echo get_theme_mod('btn_text', 'Go To Blog'); ?></a>
   </div>
 </section>
 
